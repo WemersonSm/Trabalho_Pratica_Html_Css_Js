@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    right: 100%;
+}
+
+.menuheader {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px 0px rgb(170 170 170 / 10%);
+    z-index: 1;
+}
+
+.home {
+    position: absolute;
+    left: 60px;
+    text-transform: uppercase;
+    top: 120px;
+    border-top: solid #2e974b;
+}
+
+.headerItens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 70px 20px 50px;
+}
+
+.headerItens .logo {
+    border-top: solid #2e974b;
+    width: 100px;
+}
+
+.headerItens .menuLogin ul li {
+    display: inline;
+    padding: 0px 8px;
+    text-transform: uppercase;
+}
+
+.headerItens .menuLogin ul li a {
+    padding: 35px 8px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    border-top: 2px solid #fff;
+    font-size: 20px;
+    background-image: linear-gradient(to top, #2e974b, rgb(7, 100, 7));
+    border-radius: 54px 0 54px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+
+.container {
+    background-color: #efefef;
+    padding: 6px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 54px 0 54px;
+    box-shadow: 0 0 20px 0 #8bc34a;
+    left: 50%;
+    top: 260%;
+    transform: translate(-50%);
+}
+
+.principal {
+    position: absolute;
+    height: 9vh;
+    width: 100vw;
+}
+
+form {
+    position: absolute;
+    margin-top: 80px;
+    transition: .5s;
+    width: 300px;
+    height: 400px;
+}
+
+input[type="text"],
+input[type="password"] {
+    border: none;
+    margin-top: 40px;
+    border-radius: 60px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background: #2e974b;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.divCheck {
+    margin: 10px 0 0 5px;
+    width: 80%;
+    font-size: 13px;
+}
+
+#signin {
+    left: 25px;
+}
+
+i {
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+
+.iEmail {
+    top: 36px;
+}
+
+.iPassword {
+    top: 107px;
+}

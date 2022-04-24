@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script>
+    <title>Pratica HTML CSS Servlet</title>
+</head>
+
+<body>
+    <header class="menuheader">
+        <div class="headerItens">
+            <h5 class="home">Home page</h5>
+            <a href="../index.html"><img class="logo" src="../img/logo.png" alt="logo"></a>
+            <nav class="menuLogin">
+                <ul>
+                    <li><a href="./cadastrar.html">Cadastrar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="principal">
+        <div class="container">
+            <form id="signin">
+                <input type="text" placeholder="E-mail" required />
+                <i class="fas fa-envelope iEmail"></i>
+                <input type="password" placeholder="Senha" required />
+                <i class="fas fa-lock iPassword"></i>
+                <div class="divCheck">
+                    <input type="checkbox" />
+                    <span>Lembrar Senha</span>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
